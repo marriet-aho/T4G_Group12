@@ -1,14 +1,63 @@
-.flex-container {
+ .flex-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 30%;
     
+
+  } 
+  .bigbox:hover{
+    background-color: aliceblue;
   }
-   h1{
+    h1{
     background-color: rgb(110, 238, 25);
-   }
-  body{
+   } 
+  /* body{
     background-color: aqua;
-  }
+  } */
+  
+  
+   .bigbox{
+    width: 20%;
+    height: 300px;
+    border-style: dashed;
+
+   }
+   .boxone{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+   }
+   .boxtwo{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+   }
+   .boxthree{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(33, 230, 15);
+   }
+   .boxfour{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(204, 218, 15);
+   }
+   .boxfive{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(218, 15, 133);
+   }
+
+   .boxsix{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(127, 202, 236);
+   }
+   .boxseven{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(218, 96, 15);
+   }
+
   
